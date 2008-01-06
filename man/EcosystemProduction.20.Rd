@@ -5,7 +5,8 @@
   Calculates Ecosytem Production with respiration corrected for temperature.
 }
 \usage{
-EcosystemProduction.20(velocity, meandepth, temperature, DO, day, startday, endday, sunrise.time, sunset.time, num.readings)
+EcosystemProduction.20(velocity, meandepth, temperature, DO, day, 
+startday, endday, sunrise.time, sunset.time, num.readings)
 }
 \arguments{
   \item{velocity}{ velocity in meters/s }
@@ -21,7 +22,8 @@ EcosystemProduction.20(velocity, meandepth, temperature, DO, day, startday, endd
 }
 \details{
 
-**The only difference between this function and EcosystemProduction is the correction for temperature for respiration.  I think EcosystemProduction.20 (The function documented in this page) should be favoured over just EcosystemProduction because of it should better estimate Metabolism.**
+**The only difference between this function and EcosystemProduction is the correction for temperature for respiration.  
+I think EcosystemProduction.20 (The function documented in this page) should be favoured over just EcosystemProduction because of it should better estimate Metabolism.**
 
  O'Conner Dobbins eauation is used to calculate Rearation coefficient.  This function has only been tested with zoo objects read in with the read.production function.  Should work for others, but untested.  The values that are returned are only as good as the assumptions that went into collecting the data and should be viewed with scrutiny.  Also the Reaeration coefficient is the most important number used in the calculation of Production and therefore needs to be as correct as possible.  In the future (as the need arises- or enough requests come in) I plan on incorperating different ways of calculating this,  but for now you are stuck with my assumptions for the task at hand.  
 }
@@ -41,7 +43,8 @@ Thyssen, N., Erlandsen, M., Jeppesen, E., Holm T. F.,1983. Modelling the reaerat
 
 M.R. Grace and S.J. Imberger. 2006. "Stream Metabolism: Performing & Interpreting 
 Measurements". Water Studies Centre Monash University, Murray Darling Basin Commission  and 
-New South Wales Department of Environment and Climate Change.  204 pp. Accessed at 
+New South Wales Department of Environment and Climate Change.  204 pp. 
+Accessed at 
 http://www.sci.monash.edu.au/wsc/docs/tech-manual-v3.pdf 
 
 
@@ -56,12 +59,15 @@ http://www.sci.monash.edu.au/wsc/docs/tech-manual-v3.pdf
 #96 is the number of intervals in a day for fifteen minute data
 data(DOTemp)
 prod.20 <- EcosystemProduction.20(0.6, 0.4572, DOTemp[,1], 
-DOTemp[,2], "8/18/70", "00:00:00", "23:45:00", "06:00:00", "20:15:00", 96)
-prod
+DOTemp[,2], "8/18/70", "00:00:00", 
+"23:45:00", "06:00:00", "20:15:00", 96)
+prod.20
 
 #compare to EcosystemProduction
-prod <- EcosystemProduction(0.6, 0.4572, DOTemp[,1], 
-DOTemp[,2], "8/18/70", "00:00:00", "23:45:00", "06:00:00", "20:15:00", 96)
+prod <- EcosystemProduction(0.6, 0.4572, 
+DOTemp[,1], 
+DOTemp[,2], "8/18/70", "00:00:00", 
+"23:45:00", "06:00:00", "20:15:00", 96)
 
 #notice that NDM stays the same...#
 prod

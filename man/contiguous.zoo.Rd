@@ -17,6 +17,8 @@ contiguous.zoo(x)
 	\item{value}{logical stating whether a continuous string of non-NA values}
 }	
 
+\details{if you want to just find the contiguous portions of just one signal and not the interaction between two just  duplicate the signal  contiguous.zoo(data.frame(x, coredata(x))) should give you what you want}
+
 \author{ Gabor Grothendieck and Stephen A Sefick Jr. }
 \keyword{ math }
 

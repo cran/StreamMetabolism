@@ -6,17 +6,7 @@
 Functions for Calculating Stream Metabolism
 }
 \description{
-Calculate all of the pieces of stream metabolism and rolls it all into one function for convience
-}
-\details{
-\tabular{ll}{
-Package: \tab Ecosystem.Production\cr
-Type: \tab Package\cr
-Version: \tab 0.01\cr
-Date: \tab 2008-07-30\cr
-License: \tab GPL>=2\cr
-LazyLoad: \tab yes\cr
-}
+Calculate all of the pieces of stream metabolism and rolls it all into one function for convience-
 Calculate Stream Ecosystem Metabolism
 }
 \author{
@@ -43,14 +33,17 @@ Stephens, D.W., and Jennings, M.E., 1976, Determination of primaryproductivity 
 
 M.R. Grace and S.J. Imberger. 2006. "Stream Metabolism: Performing & Interpreting 
 Measurements". Water Studies Centre Monash University, Murray Darling Basin Commission  and 
-New South Wales Department of Environment and Climate Change.  204 pp. Accessed at 
+New South Wales Department of Environment and Climate Change.  204 pp. 
+Accessed at 
 http://www.sci.monash.edu.au/wsc/docs/tech-manual-v3.pdf 
 
 
 }
-\seealso{ \code{\link{cfs.lps}}, \code{\link{Cs}}, \code{\link{dC.dt}}, \code{\link{EcosystemProduction}}, \code{\link{Kt}}, \code{\link{lps.cfs}}, \code{\link{lps.cms}}, \code{\link{ODobbins}}, \code{\link{rear.flux}}, \code{\link{window.chron}}, \code{\link{DOTemp}}, \code{\link{fmt.chron}}, \code{\link{read.production}},
+\seealso{ \code{\link{cfs.lps}}, \code{\link{Cs}}, \code{\link{contiguous.zoo}}, \code{\link{dC.dt}}, \code{\link{DOTemp}},\code{\link{EcosystemProduction}}, \code{\link{EcosystemProduction.20}}, \code{\link{fmt.chron}}, \code{\link{Kt}}, \code{\link{lps.cfs}}, \code{\link{lps.cms}}, \code{\link{ODobbins}}, \code{\link{rear.flux}}, \code{\link{read.production}},
+\code{\link{simp}},
 \code{\link{sunrise.set}},
-\code{\link{EcosystemProduction.20}}}
+\code{\link{window.chron}}
+}
 
 \keyword{ package }
 \examples{

@@ -35,7 +35,8 @@ startday, endday, sunrise.time, sunset.time, num.readings)
 
 M.R. Grace and S.J. Imberger. 2006. "Stream Metabolism: Performing & Interpreting 
 Measurements". Water Studies Centre Monash University, Murray Darling Basin Commission  and 
-New South Wales Department of Environment and Climate Change.  204 pp. Accessed at 
+New South Wales Department of Environment and Climate Change.  204 pp. 
+Accessed at 
 http://www.sci.monash.edu.au/wsc/docs/tech-manual-v3.pdf 
 
 
@@ -49,7 +50,8 @@ http://www.sci.monash.edu.au/wsc/docs/tech-manual-v3.pdf
 #sunset 8:15PM
 #96 is the number of intervals in a day for fifteen minute data
 data(DOTemp)
-prod <- EcosystemProduction(0.6, 0.4572, DOTemp[,1], 
+prod <- EcosystemProduction(0.6, 0.4572, 
+DOTemp[,1], 
 DOTemp[,2], "8/18/70", "00:00:00", "23:45:00", "06:00:00", "20:15:00", 96)
 prod
 }
