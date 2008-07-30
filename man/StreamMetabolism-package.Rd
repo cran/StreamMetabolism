@@ -40,8 +40,17 @@ Thyssen, N., Erlandsen, M., Jeppesen, E., Holm T. F.,1983. Modelling the reaerat
 O'Connor, D. J., and W. E. Dobbins (1958). Mechanisms of reaeration in natural  streams. Transactions of American Society of Civil Engineers, 123: 641-666.
 
 Stephens, D.W., and Jennings, M.E., 1976, Determination of primaryproductivity and community metabolism in streams and lakes using dieloxygen measurements: U.S. Geological Survey Computer Contribution, 100p.
+
+M.R. Grace and S.J. Imberger. 2006. "Stream Metabolism: Performing & Interpreting 
+Measurements". Water Studies Centre Monash University, Murray Darling Basin Commission  and 
+New South Wales Department of Environment and Climate Change.  204 pp. Accessed at 
+http://www.sci.monash.edu.au/wsc/docs/tech-manual-v3.pdf 
+
+
 }
-\seealso{ \code{\link{cfs.lps}}, \code{\link{Cs}}, \code{\link{dC.dt}}, \code{\link{EcosystemProduction}}, \code{\link{Kt}}, \code{\link{lps.cfs}}, \code{\link{lps.cms}}, \code{\link{ODobbins}}, \code{\link{rear.flux}}, \code{\link{window.chron}}, \code{\link{DOTemp}}, \code{\link{fmt.chron}}, \code{\link{read.production}}}
+\seealso{ \code{\link{cfs.lps}}, \code{\link{Cs}}, \code{\link{dC.dt}}, \code{\link{EcosystemProduction}}, \code{\link{Kt}}, \code{\link{lps.cfs}}, \code{\link{lps.cms}}, \code{\link{ODobbins}}, \code{\link{rear.flux}}, \code{\link{window.chron}}, \code{\link{DOTemp}}, \code{\link{fmt.chron}}, \code{\link{read.production}},
+\code{\link{sunrise.set}},
+\code{\link{EcosystemProduction.20}}}
 
 \keyword{ package }
 \examples{

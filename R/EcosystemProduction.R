@@ -1,5 +1,5 @@
 `EcosystemProduction` <-
-function(velocity, meandepth, temperature, DO, day, startday, endday ,sunrise.time, sunset.time, num.readings)
+function(velocity, meandepth, temperature, DO, day, startday="00:00:00", endday="23:45:00" ,sunrise.time, sunset.time, num.readings)
 {
 #StephenSeficksProductivityCalculator
 require(zoo)
