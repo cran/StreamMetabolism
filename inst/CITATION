@@ -1,0 +1,13 @@
+citHeader("To cite StreamMetabolism in publications use:")
+
+desc <- packageDescription("StreamMetabolism")
+year <- desc$Date
+vers <- paste("R package version", desc$Version)
+
+citEntry(entry="Manual",
+         title = "Stream Metabolism-A package for calculating single station metabolism from diurnal 			 Oxygen curves",
+         author = personList(as.person("Stephen A Sefick Jr")),
+         year=year,
+	 note=vers,
+	 textVersion =
+	 paste("Stephen A Sefick Jr",".", year,".", "Functions for 		Calculating Stream Metabolism", vers, ".", sep="")) 
