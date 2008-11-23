@@ -1,6 +1,6 @@
 \name{EcosystemProduction.20}
 \alias{EcosystemProduction.20}
-\title{ Calculate Ecosystem Production with the Single Station Method With Temperature Correction (Thyssen) for Respiration.  In other words average night time respiration is corrected for the change in temperature for the day.}
+\title{ Calculate Ecosystem Production with the Single Station Method With Temperature Correction (Thyssen) for Respiration.  In other words average night time respiration is corrected for the change in temperature for the day from the average temperature for the night.}
 \description{
   Calculates Ecosytem Production with respiration corrected for temperature.
 }
@@ -21,7 +21,7 @@ EcosystemProduction.20(velocity, meandepth, temperature, DO, day, startday, endd
 }
 \details{
 
-**The only difference between this function and EcosystemProduction is the correction for temperature for respiration.  I think EcosystemProduction.20 (The function documented in this page) should be favoured over just EcosystemProduction because of it better estimation of Metabolism.**
+**The only difference between this function and EcosystemProduction is the correction for temperature for respiration.  I think EcosystemProduction.20 (The function documented in this page) should be favoured over just EcosystemProduction because of it should better estimate Metabolism.**
 
  O'Conner Dobbins eauation is used to calculate Rearation coefficient.  This function has only been tested with zoo objects read in with the read.production function.  Should work for others, but untested.  The values that are returned are only as good as the assumptions that went into collecting the data and should be viewed with scrutiny.  Also the Reaeration coefficient is the most important number used in the calculation of Production and therefore needs to be as correct as possible.  In the future (as the need arises- or enough requests come in) I plan on incorperating different ways of calculating this,  but for now you are stuck with my assumptions for the task at hand.  
 }
