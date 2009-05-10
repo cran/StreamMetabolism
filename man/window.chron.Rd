@@ -9,10 +9,10 @@
 }
 \arguments{
   \item{x}{ data to be subsetted}
-  \item{day1}{ start day must be in "" }
-  \item{hour1}{ start time must be in "" }
-  \item{day2}{ end date must be in "" }
-  \item{hour2}{ end time must be in "" }
+  \item{day1}{ start day}
+  \item{hour1}{ start time}
+  \item{day2}{ end date}
+  \item{hour2}{ end time}
   \item{...}{ other arguments }
 }
 \value{

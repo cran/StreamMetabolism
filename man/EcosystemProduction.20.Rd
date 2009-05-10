@@ -14,10 +14,10 @@ startday, endday, sunrise.time, sunset.time, num.readings)
   \item{temperature}{ temperature in degrees Celcius }
   \item{DO}{ Dissolved Oxygen in mg/L }
   \item{day}{ date of the day of interest must be in quotes }
-  \item{startday}{ time of the start of the "day" usually 00:00:00 must be in quotes }
-  \item{endday}{ time of the end of the "day" usually 23:45:00 must be in quotes }
-  \item{sunrise.time}{ time of sunrise in the form "04:22:00" must be in quotes }
-  \item{sunset.time}{ time of sunset in the form "19:23:00" must be in quotes }
+  \item{startday}{ time of the start of the "day" usually 00:00:00 must be in quotes}
+  \item{endday}{ time of the end of the "day" usually 23:45:00 must be in quotes}
+  \item{sunrise.time}{ time of sunrise in the form 04:22:00 must be in quotes}
+  \item{sunset.time}{ time of sunset in the form 19:23:00 must be in quotes}
   \item{num.readings}{ number of readings if data is collected in 15min intervals then there are 96 readings per day }
 }
 \details{
@@ -64,8 +64,7 @@ DOTemp[,2], "8/18/70", "00:00:00",
 prod.20
 
 #compare to EcosystemProduction
-prod <- EcosystemProduction(0.6, 0.4572, 
-DOTemp[,1], 
+prod <- EcosystemProduction(0.6, 0.4572, DOTemp[,1],
 DOTemp[,2], "8/18/70", "00:00:00", 
 "23:45:00", "06:00:00", "20:15:00", 96)
 

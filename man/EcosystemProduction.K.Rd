@@ -4,7 +4,7 @@
 \description{
 You get to provide the rearation rate K}
 \usage{
-EcosystemProduction.K(K, meandepth, temperature, DO, day, startday = "00:00:00", endday = "23:45:00", sunrise.time, sunset.time, num.readings)
+EcosystemProduction.K(K, meandepth, temperature, DO, day, startday = 00:00:00, endday = 23:45:00, sunrise.time, sunset.time, num.readings)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
@@ -13,10 +13,10 @@ EcosystemProduction.K(K, meandepth, temperature, DO, day, startday = "00:00:00",
   \item{temperature}{ Time Series temperature in degrees Celcius }
   \item{DO}{ Time Series Dissolved Oxygen in mg/L }
   \item{day}{ date of the day of interest must be in quotes }
-  \item{startday}{ time of the start of the "day" usually 00:00:00 must be in quotes }
-  \item{endday}{ time of the end of the "day" usually 23:45:00 must be in quotes }
-  \item{sunrise.time}{ time of sunrise in the form "04:22:00" must be in quotes }
-  \item{sunset.time}{ time of sunset in the form "19:23:00" must be in quotes }
+  \item{startday}{ time of the start of the "day" usually 00:00:00 must be in quotes}
+  \item{endday}{ time of the end of the "day" usually 23:45:00 must be in quotes}
+  \item{sunrise.time}{ time of sunrise in the form 04:22:00 must be in quotes}
+  \item{sunset.time}{ time of sunset in the form 19:23:00 must be in quotes}
   \item{num.readings}{ number of readings if data is collected in 15min intervals then there are 96 readings per day }
 }
 \details{

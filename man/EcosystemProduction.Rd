@@ -14,10 +14,10 @@ startday, endday, sunrise.time, sunset.time, num.readings)
   \item{temperature}{ temperature in degrees Celcius }
   \item{DO}{ Dissolved Oxygen in mg/L }
   \item{day}{ date of the day of interest must be in quotes }
-  \item{startday}{ time of the start of the "day" usually 00:00:00 must be in quotes }
-  \item{endday}{ time of the end of the "day" usually 23:45:00 must be in quotes }
-  \item{sunrise.time}{ time of sunrise in the form "04:22:00" must be in quotes }
-  \item{sunset.time}{ time of sunset in the form "19:23:00" must be in quotes }
+  \item{startday}{ time of the start of the "day" usually 00:00:00 must be in quotes}
+  \item{endday}{ time of the end of the "day" usually 23:45:00 must be in quotes}
+  \item{sunrise.time}{ time of sunrise in the form 04:22:00 must be in quotes}
+  \item{sunset.time}{ time of sunset in the form 19:23:00 must be in quotes}
   \item{num.readings}{ number of readings if data is collected in 15min intervals then there are 96 readings per day }
 }
 \details{

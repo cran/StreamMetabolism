@@ -1,4 +1,4 @@
-'contiguous.zoo' <- function(x)
+`contiguous.zoo` <- function(x)
 {
 z.rle <- rle(!is.na(rowSums(coredata(x))))
 # row indexes

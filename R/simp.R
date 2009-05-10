@@ -1,4 +1,4 @@
-'simp' <- function (y, a = NULL, b = NULL, x = NULL, n = 200)
+`simp` <- function (y, a = NULL, b = NULL, x = NULL, n = 200)
 {
    if (is.null(a) | is.null(b)) {
        if (is.null(x))

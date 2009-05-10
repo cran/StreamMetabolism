@@ -1,4 +1,4 @@
-`EcosystemProduction.K` <- function (K, meandepth ,temperature, DO, day, startday = "00:00:00", endday = "23:45:00", sunrise.time, sunset.time, num.readings) 
+`EcosystemProduction.K` <- function (K, meandepth ,temperature, DO, day, startday = 00:00:00, endday = 23:45:00, sunrise.time, sunset.time, num.readings) 
 {
     require(zoo)
     require(chron)
