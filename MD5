@@ -1,11 +1,11 @@
-f1ccffa889de2093ecf8973dc5faf002 *DESCRIPTION
+b6e7fa4637f7858cd5dd73ebebaf17dc *DESCRIPTION
 c67b6cd750b5f9f11700a1d323de384f *NAMESPACE
 74eab5947e0ec9e3544c1216942ec792 *R/Cs.R
-859496d998aadda9e0de5de973ec0b2a *R/EcosystemProduction.20.R
-57ee302636a29c0e45bcca8a72f9e1ff *R/EcosystemProduction.K.R
-8994f243729d45ce72ef3a9b7e7b798e *R/EcosystemProduction.R
+63dbdbd191077953665f99db986b74ed *R/EcosystemProduction.20.R
+858482ec168f613e23bee58907b8d699 *R/EcosystemProduction.K.R
+f2be8441cb122202a18d468f376a58fd *R/EcosystemProduction.R
 c04c07513ce9e3a2652e20a85eb1b100 *R/Kt.R
-5eeb82c154ada4d2b2263333157d240d *R/ODobbins.R
+b33d499cef61e008316ddbd28519e8f7 *R/ODobbins.R
 d4dc220082dbe3fa5cafbb85eb9931d1 *R/SteamMetabolism-internal.R
 8d433674a9e8dc3a5d8bfefbc7952fea *R/cfs.lps.R
 984853a24a9400f80a82363d71fb6ed5 *R/contiguous.zoo.R
@@ -23,7 +23,7 @@ bb419acfd3a91e479408e440aa36afca *R/window.chron.R
 0769abafe8b8f2e876079ce00e4c5ea5 *man/Cs.Rd
 f0f200648a59380e19d95cc7c40133ed *man/DOTemp.Rd
 0b3a17eea8377cdff15f4bbcae57ece4 *man/EcosystemProduction.20.Rd
-500ea4590969702fa6931c0873389742 *man/EcosystemProduction.K.Rd
+0bc28f82e500422affca9427e1fc580d *man/EcosystemProduction.K.Rd
 56b9c43a708fc4104dca377fbd6ede4b *man/EcosystemProduction.Rd
 3036ed8174f884c8870fb5e7f91e005f *man/Kt.Rd
 5c0f1d45a1082de09d44a036e0f01fa4 *man/ODobbins.Rd

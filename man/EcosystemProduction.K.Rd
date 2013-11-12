@@ -4,7 +4,9 @@
 \description{
 You get to provide the rearation rate K}
 \usage{
-EcosystemProduction.K(K, meandepth, temperature, DO, day, startday = 00:00:00, endday = 23:45:00, sunrise.time, sunset.time, num.readings)
+EcosystemProduction.K(K, meandepth, temperature, DO, day, 
+startday = 00:00:00, endday = 23:45:00
+, sunrise.time, sunset.time, num.readings)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{

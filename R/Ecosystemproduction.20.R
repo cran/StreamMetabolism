@@ -1,6 +1,6 @@
 `EcosystemProduction.20` <- function (velocity, meandepth, temperature, DO, day, startday = 00:00:00, endday = 23:45:00, sunrise.time, sunset.time, num.readings){
-    require(zoo)
-    require(chron)
+    #require(zoo)
+    #require(chron)
     K <- ODobbins(velocity, meandepth)
     Ktemp <- Kt(K, temperature)
     Rearation.Flux <- rear.flux(DO, Ktemp, temperature, num.readings)
