@@ -14,7 +14,7 @@ ODobbins(vel, dep)
 \details{
   Surface Renewal
 }
-\value{ Reaeration Cofficient ( single value)
+\value{ Reaeration Cofficient (1/d)
 }
 \references{ O'Connor, D. J., and W. E. Dobbins (1958). Mechanisms of reaeration in natural  streams. Transactions of American Society of Civil Engineers, 123: 641-666. }
 \author{ Stephen A Sefick Jr. }

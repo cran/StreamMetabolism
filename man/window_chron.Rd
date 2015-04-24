@@ -1,11 +1,10 @@
-\name{window.chron}
-\alias{window.chron}
+\name{window_chron}
+\alias{window_chron}
 \title{Time Windows of Diurnal Curves}
 \description{
   Takes a time window of a larger series
 }
-\usage{
-\method{window}{chron}(x, day1, hour1, day2, hour2, ...)
+\usage{window_chron(x, day1, hour1, day2, hour2, ...)
 }
 \arguments{
   \item{x}{ data to be subsetted}
@@ -24,7 +23,7 @@
 \examples{
 #with real data
 data(DOTemp)
-d <- window.chron(DOTemp, "8/18/70", "06:00:00", "8/18/70", "20:15:00")
+d <- window_chron(DOTemp, "8/18/70", "06:00:00", "8/18/70", "20:15:00")
 plot(d)
 }
 \keyword{ chron }

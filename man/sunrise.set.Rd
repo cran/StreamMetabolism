@@ -2,7 +2,7 @@
 \alias{sunrise.set}
 \title{ Calculate Sunrise Sunset Times }
 \description{
-  This function calculates sunrise sunset times in POSIXct and returns it in a handy dandy format to wither export as a csv file or use directly in the calculation of Stream Metabolism.  This function is based on maptools which is based on the NOAA sunrise sunset claculator.
+  This function calculates sunrise sunset times in POSIXct and returns it in a handy dandy format to either export as a csv file or use directly in the calculation of Stream Metabolism.  This function is based on maptools which is based on the NOAA sunrise sunset claculator.
 }
 \usage{
 sunrise.set(lat, long, date, timezone = "UTC", num.days = 1)
@@ -22,7 +22,15 @@ sunrise.set(lat, long, date, timezone = "UTC", num.days = 1)
   \item{output}{data frame with all dates sunrise and sunset times specified}
  }
 
-\references{ http://www.srrb.noaa.gov/highlights/sunrise/sunrise.html }
+\references{ 
+
+old site:
+\url{http://www.esrl.noaa.gov/gmd/grad/solcalc/sunrise.html} 
+
+new site:
+\url{http://www.esrl.noaa.gov/gmd/grad/solcalc/}
+
+}
 
 \author{ Stephen A Sefick Jr. }
 
