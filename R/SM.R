@@ -58,23 +58,23 @@ D.day <- window_chron(D, day, sr, day, ss)
 #################
 
 #Community Respiration 24 hour corrected for time
-CR <- Rnight*(1.072^(temp-avg_night_temp))*min_interval
+ER <- Rnight*(1.072^(temp-avg_night_temp))*min_interval
 
 #Net Ecosystem Production
 NEP <- dC.dt(DO)-Ktemp*(Cs(temp)-DO)
 
-NEP.CR <- merge(NEP, CR)
+NEP.ER <- merge(NEP, ER)
 
 
 #GPP during daytime
-GPP <- sum(window_chron(NEP.CR[,1]-NEP.CR[,2], day, sr, day, ss))
+GPP <- sum(window_chron(NEP.ER[,1]-NEP.ER[,2], day, sr, day, ss))
 
 #make into g/m_sq*d
 GPP*depth
-CR*depth
+ER*depth
 NEP*depth
 
 #NEP is the sum of all day CR and light time GPP
-return(data.frame(GPP, CR=sum(CR), NEP=sum(CR)+GPP))
+return(data.frame(GPP, ER=sum(ER), NEP=sum(ER)+GPP))
 
 }

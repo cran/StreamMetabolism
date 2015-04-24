@@ -1,9 +1,9 @@
-b65932e9e2489ee456fa480dea04b5b7 *DESCRIPTION
+b5c0d87734c1dd629eb4ca13e6e7af32 *DESCRIPTION
 c67b6cd750b5f9f11700a1d323de384f *NAMESPACE
 74eab5947e0ec9e3544c1216942ec792 *R/Cs.R
 c04c07513ce9e3a2652e20a85eb1b100 *R/Kt.R
 b33d499cef61e008316ddbd28519e8f7 *R/ODobbins.R
-963fc9fbad008ec6e75103714e46a164 *R/SM.R
+c10eb7ed8338488ab7a896c0fd21868f *R/SM.R
 d4dc220082dbe3fa5cafbb85eb9931d1 *R/SteamMetabolism-internal.R
 8d433674a9e8dc3a5d8bfefbc7952fea *R/cfs.lps.R
 984853a24a9400f80a82363d71fb6ed5 *R/contiguous.zoo.R
@@ -15,7 +15,6 @@ c0c322730fc60addeda6dd460b999611 *R/read.production.R
 5cc8bfbdff9c65c615a7152e55080f4f *R/simp.R
 76e2a8566ac441e4c03dd9a0e0e5a07d *R/sunrise.set.R
 387e2089cd3cd98dd45c4e7135adbc7c *R/window_chron.R
-4e790450af2817715f7f5237b9486eff *README.md
 62714e8a6fbe17b9dad5a58257953b18 *data/DOTemp.rda
 9249f26eb419fbfd80d6ab0e8ca7d718 *inst/CITATION
 0769abafe8b8f2e876079ce00e4c5ea5 *man/Cs.Rd
