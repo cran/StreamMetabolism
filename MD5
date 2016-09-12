@@ -1,5 +1,5 @@
-b5c0d87734c1dd629eb4ca13e6e7af32 *DESCRIPTION
-c67b6cd750b5f9f11700a1d323de384f *NAMESPACE
+9dde3df14665b14afd25c53a15ebf17b *DESCRIPTION
+8d7f437aa33df516120fc1ddc32c33a1 *NAMESPACE
 74eab5947e0ec9e3544c1216942ec792 *R/Cs.R
 c04c07513ce9e3a2652e20a85eb1b100 *R/Kt.R
 b33d499cef61e008316ddbd28519e8f7 *R/ODobbins.R
@@ -15,13 +15,14 @@ c0c322730fc60addeda6dd460b999611 *R/read.production.R
 5cc8bfbdff9c65c615a7152e55080f4f *R/simp.R
 76e2a8566ac441e4c03dd9a0e0e5a07d *R/sunrise.set.R
 387e2089cd3cd98dd45c4e7135adbc7c *R/window_chron.R
+d599146dee979ee3f5a3276a0cc76b11 *README.md
 62714e8a6fbe17b9dad5a58257953b18 *data/DOTemp.rda
-9249f26eb419fbfd80d6ab0e8ca7d718 *inst/CITATION
+1968a2ea18f85d8a599d29c291edfa81 *inst/CITATION
 0769abafe8b8f2e876079ce00e4c5ea5 *man/Cs.Rd
 f0f200648a59380e19d95cc7c40133ed *man/DOTemp.Rd
 7683b93eecebe927b4c4cb5a4f38faaf *man/Kt.Rd
 808717b81ab0f267d9b65c7cc7d9db0b *man/ODobbins.Rd
-2190cba25d72d7b4944c1bf11e6b6ac4 *man/SM.Rd
+c7ce98c51c448fa92a43c090b2684bc4 *man/SM.Rd
 ad0caef9227947dcf14d22ab4036c9ab *man/StreamMetabolism-internal.Rd
 755e2b5094a4a3b91fa227eb3ea6d0c0 *man/cfs.lps.Rd
 0f9bb89a30ddca9e0ec1d944efbe3b1c *man/contiguous.zoo.Rd
