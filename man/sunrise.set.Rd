@@ -25,10 +25,10 @@ sunrise.set(lat, long, date, timezone = "UTC", num.days = 1)
 \references{ 
 
 old site:
-\url{http://www.esrl.noaa.gov/gmd/grad/solcalc/sunrise.html} 
+\url{https://gml.noaa.gov/grad/solcalc/sunrise.html}
 
 new site:
-\url{http://www.esrl.noaa.gov/gmd/grad/solcalc/}
+\url{https://gml.noaa.gov/grad/solcalc/sunrise.html}
 
 }
 
